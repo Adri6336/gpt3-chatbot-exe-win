@@ -1,7 +1,7 @@
 # gpt3-chatbot-exe-win
 This contains the files needed to run GPT-3 STTC on windows via an exe file. To get started, download the repo via cloning or downloading the release. Once this is done, find the keys.txt file in the folder and paste your OpenAI API key on the line with "OpenAI_Key=", directly after the equals sign and without a space. Next, double click on main.exe. Windows will scan it, then run it once it correctly determines that it's safe.
 
-The exe was made with pyinstaller. This repo holds the executable version of my repo GPT-3 STTC that you can find here: https://github.com/Adri6336/gpt3-speech-to-text-chatbot . The bot itself is platform independant, so go to that repo and use it via the script to get started on Linux. If you're on Linux, be sure to do the following to satisfy the pyaudio requirement:
+The exe was made with pyinstaller. This repo holds the executable version of my repo GPT-3 STTC that you can find here: https://github.com/Adri6336/gpt3-speech-to-text-chatbot . The bot itself is platform independent, so go to that repo and use it via the script to get started on Linux. If you're on Linux, be sure to do the following to satisfy the pyaudio requirement:
 
     sudo apt install python3-pyaudio
 
